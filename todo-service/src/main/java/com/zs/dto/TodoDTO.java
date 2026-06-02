@@ -9,7 +9,7 @@ public class TodoDTO {
 	public String getTask() {
 		return task;
 	}
-	public void setTask(String task) {
+	public void setTask(String task) {//setter mmethod to hide the implementation from the users 
 		this.task = task;
 	}
 }
