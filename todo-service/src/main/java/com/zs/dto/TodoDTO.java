@@ -3,7 +3,7 @@ package com.zs.dto;
 import jakarta.validation.constraints.Pattern;
 
 public class TodoDTO {
-	@Pattern(regexp = "[A-Z][a-z ]{5,}", message = "Enter valid task details")
+	@Pattern(regexp = "[A-Z][a-z ]{5,}", message = "Enter valid task details")//regex exp.
 	private String task;
 
 	public String getTask() {
